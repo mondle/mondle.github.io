@@ -1,0 +1,104 @@
+.hidden {
+	display: none;
+}
+
+body,
+html {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: white;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+h1,
+h2,
+h3 {
+	margin: 0;
+}
+
+#clock {
+	font-size: 11em;
+	text-shadow: 4px 3px 5px black;
+	margin-bottom: 1em;
+}
+
+#greeting {
+	font-size: 3em;
+	color: #ffffffad;
+	margin: 1em;
+}
+
+#w2 {
+	font-size: 2em;
+	height: 3em;
+	line-height: 3em;
+	vertical-align: top;
+	margin: 0;
+}
+
+img {
+	filter: invert(100%) brightness(100%);
+	width: 6em;
+	height: 6em;
+	line-height: 3em;
+	margin: 0;
+}
+
+input {
+	background: none;
+	appearance: none;
+	border: 0;
+	font-size: 3em;
+	text-align: center;
+	color: white;
+	border-bottom: 2px solid white;
+	margin-bottom: 1em;
+}
+
+input::placeholder {
+	color: white;
+}
+
+input:focus,
+input:active {
+	outline: none;
+}
+
+#todo-form input {
+	font-size: 22px;
+	height: 42px;
+	background-color: #ffffff1d;
+	padding: 0;
+	margin: 0;
+	border-radius: 21px;
+}
+
+ul {
+	list-style-type: none;
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+}
+
+button {
+	background: none;
+	border: 0;
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+	cursor: pointer;
+}
+
+#quote {
+	font-size: 1.2em;
+	text-align: center;
+}
